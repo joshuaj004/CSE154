@@ -1,0 +1,25 @@
+body {
+	background-color: white;
+	margin: 0;
+}
+
+#earth {
+	width: 316px;
+	height: 316px;
+	background: url(https://courses.cs.washington.edu/courses/cse154/16wi/sections/8/turtles/solution/earth.png);
+	margin: auto;
+}
+
+#elephant {
+	width: 403px;
+	height: 225px;
+	background: url(https://courses.cs.washington.edu/courses/cse154/16wi/sections/8/turtles/solution/elephant.png);
+	margin: -20px auto -90px auto;
+}
+
+.turtle {
+	width: 224px;
+	height: 181px;
+	background: url(https://courses.cs.washington.edu/courses/cse154/16wi/sections/8/turtles/solution/turtle.png) no-repeat;
+	margin: -3px auto -50px auto;
+}

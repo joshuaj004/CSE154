@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    <?php
+    $stutterWord = ""; 
+    $word = $_GET["word"];
+    function stutter($word) {
+        for ($i = 0; $i < strlen($word); $i++) {
+            $char = substr($word, $i, 1);
+            $stutterWord .= $char . $char;
+        }
+    }
+    if (strlen($word > 0)) { return "<p>" . $stutterWord . "</p>"; }    
+    ?>
+</body>
+
+</html>

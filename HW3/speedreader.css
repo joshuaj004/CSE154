@@ -1,0 +1,72 @@
+/*
+This is the stylesheet for the speedreader.html file. It styles the 
+page and has been refactored to reduce duplicate lines.
+*/
+
+body {
+    background-color: #EAF6F6;
+    font-family: Garamond, serif;
+    font-size: 12pt;
+}
+
+button {
+    background-color: white;
+}
+
+button, img {
+    width: 70px;
+}
+
+button, textarea {
+    border-color: gray;
+    border-width: 1px;
+}
+
+button[disabled] {
+    background-color: lightgray; 
+}
+
+fieldset {    
+    border: 0;
+    display: inline;
+}
+
+h1, .readingbox, .settings, .textbox {
+    text-align: center;
+}
+
+.labels, legend, .readingbox {
+    font-weight: bold;
+}
+
+.labels, legend {
+    border-bottom-color: #8EBEBE;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: left;
+}
+
+legend {
+    padding: 2px;
+    width: 100%;
+}
+
+.readingbox {
+    background-color: #FFFFFF;
+    border-color: #8EBEBE;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    font-family: monospace;
+    font-size: 36pt;
+    height: 100px;
+    line-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.tags {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}

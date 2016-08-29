@@ -1,0 +1,5 @@
+Write a regular expression that will match an IP address. That is, a string consisting of three numbers of 1-3 digits, with dots separating them, such as "128.208.3.88" without the quotes. (Technically, each of the four numbers in a regex can be from 0-255 inclusive, but it is fine for this problem to allow any 1-to-3-digit number such as 7 or 54 or 699.) Use this Rubular regex page to develop and test your regex.
+Write a regular expression that will match words that start with either 'q' or 's', and that also contain a double z ('zz') later within the same word. For example, the string "quizzes" would match. Use this Rubular regex page to develop and test your regex.
+
+1)^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$
+2) ^[qs]\w*zz.*

@@ -1,0 +1,51 @@
+ /* Josh Johnson
+   CSE 154
+   Lab 1
+
+   Styles for my pie page
+*/
+
+h1, h2 {
+    background-color: #F0F0F0;
+    color: #A4A400;    
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: white;
+    background-image: url("https://webster.cs.washington.edu/images/silverware.jpg");
+    color: #404040;
+    font-family:  Georgia, Garamond, serif;
+    font-size: 11pt;    
+}
+
+a {
+    color: #A4A400;
+}
+
+blockquote {
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+ins {
+    text-decoration: none;
+}
+
+ul {
+    list-style-image: url("https://webster.cs.washington.edu/images/pie-icon.gif");
+}

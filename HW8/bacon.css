@@ -1,0 +1,41 @@
+/*
+Josh Johnson
+CSE 154
+Section AF
+Chris Shin
+This is the basic CSS file. Pretty straight forward.
+*/
+body {
+    background-color: #dad9d4;
+}
+
+#banner, #w3c {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+
+fieldset {
+    margin: 0px auto;
+    padding: 10px;
+    width: 40%;
+}
+
+#frame {
+    background-color: white;
+    text-align: center;
+    width: 90%;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+	background-color: #dad9d4;
+}

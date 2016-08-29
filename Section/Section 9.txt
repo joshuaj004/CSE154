@@ -1,0 +1,9 @@
+SELECT name, independence_year 
+FROM countries
+WHERE independence_year >= 1970
+AND continent = 'Africa';
+
+SELECT name, population
+FROM cities
+WHERE country_code = 'CAN'
+AND population BETWEEN 200000 AND 600000;
